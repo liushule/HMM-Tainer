@@ -30,19 +30,19 @@ vector<double> calculateProbability(HMM models[6]);
 /// ***** ***** ***** Settings to be changed by user ***** ***** ***** ///
 /// ***** Choose operational mode ***** ///
 // Create new HMM based on at least one data set specified below
-bool createHMM = true;
+bool createHMM = false;
 // Optimise a single HMM by indefinitely calculating new HMMs and replacing the old ones if those are better
 bool optimiseInfiniteHMM = false;
 // Optimise movement recognition manually by outputting table of probabilities (currently only debug functionality)
 bool optimiseMovementRecognition = false;
 // Calculating the probability for a data set based on an already existing HMM
-bool calculateSingleProbability = false;
+bool calculateSingleProbability = true;
 // Show debug messages on console
 bool debug = false;
 
 /// ***** Set paths and HMM parameters ***** ///
 // File name of the data set to be used used for single probability calculation
-string currentMovement = "Yoga_Krieger5";
+string currentMovement = "Yoga_Krieger88";
 // Path for the source files
 string trainingFilePath = "../Training/";
 // Base file name in the format "<trainingFileName>_<number>.txt" (only trainingFileName required)
@@ -54,9 +54,9 @@ string writeFileName = "Yoga_Krieger";
 // Number of hidden states used for calculating the HMM (standard is 6)
 int numStates = 6;
 // Number of clusters used for the data set taken as input for the HMM (standard is 8)
-int numEmissions = 8;
+int numEmissions = 10;
 // Number of times an HMM is created per tracker before using the one with the best threshold
-int hmmTries = 1000000;
+int hmmTries = 1000;
 // Left to right depth of HMM; 0 leaves the start points to be random
 int lrDepth = 2;
 
@@ -144,7 +144,7 @@ int main() {
 			}
 		}
 		if (emptyTracker) {
-			std::cout << " \} \nThose trackers have been skipped and no corresponding HMM was created. \n\n";
+			std::cout << " \n \nThose trackers have been skipped and no corresponding HMM was created. \n\n";
 		}
 
 		for (int ii = 0; ii < 6; ii++) {
@@ -155,86 +155,79 @@ int main() {
 	}
 
 	/// ***** ***** ***** Calculating probability for data set ***** ***** ***** ///
-	else if (calculateSingleProbability) {
-		std::cout << "<Calculating probability for data set>\n" << "Using predefined variables for execution." "\n\n";
-
-		std::cout << "Loading cluster coordinates.\n";
-		vector<KMeans> kmeanVector(6);
-		bool trackersPresent[6]; // stores which trackers are present in HMMs/clusters
-		for (int ii = 0; ii < 6; ii++) {
-			try {
-				KMeans kmeans(writeFilePath, writeFileName + "_" + to_string(ii));
-				kmeanVector.at(ii) = kmeans;
-				std::cout << "Cluster coordinates for " << trackerNames[ii] << " found. \n";
-				trackersPresent[ii] = true;
-			}
-			catch (std::invalid_argument) {
-				trackersPresent[ii] = false;
-			}
-		}
-		std::cout << "\n";
-
-		std::cout << "Sorting new data sets into clusters. ";
-		vector<vector<vector<int>>> dataClusters = sortDataToClusters(currentMovement, 1, kmeanVector);
-		std::cout << "Normalised data sets clustered. \n";
-
-		if (debug) { // console output of clusters
-			for (int kk = 0; kk < 6; kk++) {
-				std::cout << "\n";
-				if (!dataClusters.at(kk).empty()) {
-					std::cout << trackerNames[kk] << " clusters: \n";
-					for (int &singleClusterNumber : dataClusters.at(kk).at(0)) {
-						std::cout << singleClusterNumber << " ";
-					}
-					std::cout << "\n";
-				}
-			}
-		}
-
-		for (int ii = 0; ii < 6; ii++) {
-			if (trackersPresent[ii]) {
-				std::cout << "Calculating probability for " << trackerNames[ii] << " based on given HMM: ";
-				HMM model(writeFilePath, writeFileName + "_" + to_string(ii));
-				std::cout << model.calculateProbability(dataClusters.at(ii).at(0)) << "\n";
-			}
-		}
-	}
-
-	// Optimise movement recognition manually by outputting table of probabilities (currently only debug functionality)
-	else if (optimiseMovementRecognition) {
-		// Open threads
-		thread t[num_threads];
-
-		// Creates file for data and writes first row giving information about the data to come
-		file.open(writeFilePath + writeFileName + "_Overview.txt", ios::out /*| ios::trunc*/);
-		file << "Number of states" << "; " << "Number of emissions" << "; " << "LR Depth" << "; " << "File number" << "; " << "Tracker name" << "; " << "Probability" << ";\n";
-
-		// Variables to be used in training
-		trainingNumber = getFullTrainingNumber(trainingFilePath, trainingFileName);
-		if (trainingNumber > 10) trainingNumber = 10; // Limit training to ten files to see whether other correct files are being correctly recognized as such
-		int emissionIterations[9] = { 8, 10, 12, 16, 20, 30, 40, 50, 100 };
-
-		// Actual calculations
-		for (int &numEmissions : emissionIterations) {
-			kmeans = calculateClusters(0, trainingNumber, numEmissions, 3, 1000);
-			sequence = sortDataToClusters(trainingFileName, trainingNumber, kmeans);
-			for (numStates = 6; numStates <= 16; numStates += 2) {
-				std::cout << "Splitting threads**********************************************************************\n";
-				std::cout << "Training HMM with a left to right depth of " << lrDepth << ", " << numStates << " hidden states and " << numEmissions << " possible emissions using " << trainingNumber << " sets of training data. \n\n";
-
-				// Uses threadIteration for lrDepth as well
-				for (int threadIteration = 0; threadIteration < num_threads; threadIteration++) {
-					std::cout << "Launched from thread " << threadIteration << "\n";
-					t[threadIteration] = thread(multiThreadOptimisation, threadIteration, numStates, numEmissions, trainingNumber, sequence, hmmTries);
-				}
-				for (thread &singleThread : t) {
-					singleThread.join();
-				}
-				std::cout << "\nRejoined threads**********************************************************************\n\n";
-
-			}
-		}
-	}
+    else if (calculateSingleProbability) {
+        int count=0;
+        cout << "<Calculating probability for data set>\n" << "Using predefined variables for execution." "\n\n";
+        cout << "Loading cluster coordinates.\n";
+        vector<KMeans> kmeanVector(6);
+        bool trackersPresent[6]; // stores which trackers are present in HMMs/clusters
+        for (int ii = 0; ii < 6; ii++) {
+            try {
+                KMeans kmeans(writeFilePath, writeFileName + "_" + to_string(ii));
+                kmeanVector.at(ii) = kmeans;
+                cout << "Cluster coordinates for " << trackerNames[ii] << " found. \n";
+                trackersPresent[ii] = true;
+            } catch (invalid_argument) {
+                trackersPresent[ii] = false;
+            }
+        }
+        cout << "\n";
+        int validationFileNumber = getFullTrainingNumber(trainingFilePath, trainingFileName);
+        cout<< "Validation test for "<<validationFileNumber <<" Files."<< "\n";
+        cout << "Sorting new data sets into clusters. ";
+        
+        vector<vector<Point>> currentDataSet;
+        file.open(writeFilePath + writeFileName + "_Analysis.txt", ios::out /*| ios::trunc*/);
+        int thresholdIndex [5] = {1,2,3,4,5};
+        for (int &index : thresholdIndex){
+            count=0;
+            for (int currentFile = 0; currentFile < validationFileNumber; currentFile++) {
+                currentMovement = trainingFileName + to_string(currentFile);
+                file << "\nValidation test of file:"<< currentMovement<<";\n";
+                vector<vector<vector<int>>> dataClusters = sortDataToClusters(currentMovement,1, kmeanVector);
+                //        cout << "Normalised data sets clustered. \n";
+                
+                if (debug) { // console output of clusters
+                    for (int kk = 0; kk < 6; kk++) {
+                        cout << "\n";
+                        if (!dataClusters.at(kk).empty()) {
+                            cout << trackerNames[kk] << " clusters: \n";
+                            for (int &singleClusterNumber : dataClusters.at(kk).at(0)) {
+                                cout << singleClusterNumber << " ";
+                            }
+                            cout << "\n";
+                        }
+                    }
+                }
+                
+                vector<bool> trackerMovementRecognised(6, true);
+                for (int ii = 0; ii < 6; ii++) {
+                    if (trackersPresent[ii]) {
+                        //Calculating probability for "trackerNames" based on given HMM:
+                        //                cout << "Calculating probability for " << trackerNames[ii] << " based on given HMM: ";
+                        HMM model(writeFilePath, writeFileName + "_" + to_string(ii));                        
+                        //                cout << model.calculateProbability(dataClusters.at(ii).at(0)) << "\n";
+                        trackerMovementRecognised.at(ii) = (model.calculateProbability(dataClusters.at(ii).at(0)) > (model.getProbabilityThreshold() * index));
+                        file << trackerNames[ii]<<";"<<model.calculateProbability(dataClusters.at(ii).at(0))<<";"<<model.getProbabilityThreshold()* index<<";"<<trackerMovementRecognised.at(ii)<<"\n";
+                    }
+                }
+                bool result;
+                if (std::all_of(trackerMovementRecognised.begin(), trackerMovementRecognised.end(), [](bool v) { return v; })) {
+                    // All (present) trackers were recognised as correct
+                    result = true;
+                    count++;
+                } else {
+                    result = false;
+                    
+                }
+                file<<"The result is "<<result<<".\n";
+            }
+            double probability = (double)count/validationFileNumber;
+            file<<"The recognition probability is "<<probability <<".\n";
+            cout<<"Threshold index is "<< index<<";"<<"Probability: "<<probability <<".\n";
+        }
+    }
+	
 	
 	// Optimise a single HMM by indefinitely calculating new HMMs and replacing the old ones if those are better
 	else if (optimiseInfiniteHMM) {
@@ -378,7 +371,7 @@ vector<double> calculateProbability(HMM models[6]) {
 ********************************************************************************/
 int getFullTrainingNumber(string trainingFilePath, string trainingFileName) {
 	int trainingNumber = 0;
-	while (ifstream(trainingFilePath + trainingFileName + std::to_string(trainingNumber) + ".txt")) {
+	while (ifstream(trainingFilePath + trainingFileName + std::to_string(trainingNumber) + ".csv")) {
 		trainingNumber++;
 	}
 	return trainingNumber;

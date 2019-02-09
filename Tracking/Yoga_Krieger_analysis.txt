@@ -1,14 +1,2255 @@
--6.18482;-694.842;-401.382;-6.80183;-5.50793;-463.484;
--447.883;-738.14;-249.913;-619.235;-586.348;-9.55003;
--338.337;-129.249;-238.859;-492.138;-546.373;-390.555;
--6.18482;-nan(ind);-198.042;-6.80183;-5.50793;-433.499;
--6.18482;-2.9698;-213.394;-6.80183;-603.368;-9.55003;
--6.18482;-312.997;-344.7;-6.80183;-5.50793;-463.484;
--439.099;-484.655;-221.675;-455.974;-508.788;-243.44;
--260.091;-218.625;-201.971;-189.859;-206.917;-463.484;
--240.58;-242.285;-270.791;-43.8002;-269.17;-463.484;
--318.59;-148.058;-367.703;-203.503;-280.67;-463.484;
--165.926;-73.3284;-nan(ind);-nan(ind);-463.484;
--151.474;-94.5412;-nan(ind);-nan(ind);-463.484;
--182.915;-264.615;-243.592;-328.009;-463.484;
--206.54;-292.23;-213.806;-293.823;-444.751;
+
+Validation test of file:Yoga_Krieger_0;
+Head Mounted Display;-294.727;-589.447;1
+Left Hand Controller;-249.414;-498.831;1
+Right Hand Controller;-209.718;-419.438;1
+Back Tracker;-144.524;-289.049;1
+Left Foot Tracker;-66.0787;-132.158;1
+Right Foot Tracker;-320.413;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_1;
+Head Mounted Display;-291.038;-589.447;1
+Left Hand Controller;-260.169;-498.831;1
+Right Hand Controller;-219.943;-419.438;1
+Back Tracker;-149.386;-289.049;1
+Left Foot Tracker;-67.1936;-132.158;1
+Right Foot Tracker;-369.264;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_2;
+Head Mounted Display;-295.889;-589.447;1
+Left Hand Controller;-250.988;-498.831;1
+Right Hand Controller;-219.706;-419.438;1
+Back Tracker;-172.389;-289.049;1
+Left Foot Tracker;-68.5876;-132.158;1
+Right Foot Tracker;-334.636;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_3;
+Head Mounted Display;-305.463;-589.447;1
+Left Hand Controller;-248.76;-498.831;1
+Right Hand Controller;-198.476;-419.438;1
+Back Tracker;-134.46;-289.049;1
+Left Foot Tracker;-65.4543;-132.158;1
+Right Foot Tracker;-355.221;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_4;
+Head Mounted Display;-310.064;-589.447;1
+Left Hand Controller;-268.627;-498.831;1
+Right Hand Controller;-218.162;-419.438;1
+Back Tracker;-130.846;-289.049;1
+Left Foot Tracker;-67.516;-132.158;1
+Right Foot Tracker;-378.178;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_5;
+Head Mounted Display;-304.509;-589.447;1
+Left Hand Controller;-256.916;-498.831;1
+Right Hand Controller;-220.683;-419.438;1
+Back Tracker;-143.914;-289.049;1
+Left Foot Tracker;-66.5132;-132.158;1
+Right Foot Tracker;-346.88;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_6;
+Head Mounted Display;-304.971;-589.447;1
+Left Hand Controller;-285.814;-498.831;1
+Right Hand Controller;-238.93;-419.438;1
+Back Tracker;-159.347;-289.049;1
+Left Foot Tracker;-69.124;-132.158;1
+Right Foot Tracker;-348.005;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_7;
+Head Mounted Display;-294.727;-589.447;1
+Left Hand Controller;-249.414;-498.831;1
+Right Hand Controller;-209.718;-419.438;1
+Back Tracker;-144.524;-289.049;1
+Left Foot Tracker;-66.0787;-132.158;1
+Right Foot Tracker;-320.413;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_8;
+Head Mounted Display;-295.808;-589.447;1
+Left Hand Controller;-255.861;-498.831;1
+Right Hand Controller;-211.25;-419.438;1
+Back Tracker;-158.234;-289.049;1
+Left Foot Tracker;-60.3138;-132.158;1
+Right Foot Tracker;-391.111;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_9;
+Head Mounted Display;-291.637;-589.447;1
+Left Hand Controller;-264.129;-498.831;1
+Right Hand Controller;-218.209;-419.438;1
+Back Tracker;-166.076;-289.049;1
+Left Foot Tracker;-63.8943;-132.158;1
+Right Foot Tracker;-341.039;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_10;
+Head Mounted Display;-297.911;-589.447;1
+Left Hand Controller;-246.388;-498.831;1
+Right Hand Controller;-206.159;-419.438;1
+Back Tracker;-148.476;-289.049;1
+Left Foot Tracker;-63.2912;-132.158;1
+Right Foot Tracker;-362.188;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_11;
+Head Mounted Display;-297.416;-589.447;1
+Left Hand Controller;-255.822;-498.831;1
+Right Hand Controller;-210.025;-419.438;1
+Back Tracker;-174.274;-289.049;1
+Left Foot Tracker;-61.4594;-132.158;1
+Right Foot Tracker;-420.835;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_12;
+Head Mounted Display;-301.65;-589.447;1
+Left Hand Controller;-258.33;-498.831;1
+Right Hand Controller;-216.201;-419.438;1
+Back Tracker;-156.112;-289.049;1
+Left Foot Tracker;-63.2997;-132.158;1
+Right Foot Tracker;-444.726;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_13;
+Head Mounted Display;-507.624;-589.447;1
+Left Hand Controller;-878.301;-498.831;0
+Right Hand Controller;-361.716;-419.438;1
+Back Tracker;-323.05;-289.049;0
+Left Foot Tracker;-244.468;-132.158;0
+Right Foot Tracker;-561.211;-640.814;1
+The result is 0.
+
+Validation test of file:Yoga_Krieger_14;
+Head Mounted Display;-299.507;-589.447;1
+Left Hand Controller;-265.377;-498.831;1
+Right Hand Controller;-205.686;-419.438;1
+Back Tracker;-175.43;-289.049;1
+Left Foot Tracker;-57.4527;-132.158;1
+Right Foot Tracker;-487.235;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_15;
+Head Mounted Display;-283.972;-589.447;1
+Left Hand Controller;-293.084;-498.831;1
+Right Hand Controller;-243.368;-419.438;1
+Back Tracker;-180.674;-289.049;1
+Left Foot Tracker;-66.5065;-132.158;1
+Right Foot Tracker;-332.461;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_16;
+Head Mounted Display;-315.44;-589.447;1
+Left Hand Controller;-254.605;-498.831;1
+Right Hand Controller;-218.89;-419.438;1
+Back Tracker;-136.945;-289.049;1
+Left Foot Tracker;-65.5885;-132.158;1
+Right Foot Tracker;-373.478;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_17;
+Head Mounted Display;-302.911;-589.447;1
+Left Hand Controller;-271.734;-498.831;1
+Right Hand Controller;-209.998;-419.438;1
+Back Tracker;-150.166;-289.049;1
+Left Foot Tracker;-66.815;-132.158;1
+Right Foot Tracker;-410.591;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_18;
+Head Mounted Display;-308.891;-589.447;1
+Left Hand Controller;-252.11;-498.831;1
+Right Hand Controller;-212.694;-419.438;1
+Back Tracker;-137.02;-289.049;1
+Left Foot Tracker;-63.4914;-132.158;1
+Right Foot Tracker;-344.147;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_19;
+Head Mounted Display;-284.895;-589.447;1
+Left Hand Controller;-274.23;-498.831;1
+Right Hand Controller;-219.393;-419.438;1
+Back Tracker;-141.331;-289.049;1
+Left Foot Tracker;-70.7369;-132.158;1
+Right Foot Tracker;-295.767;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_20;
+Head Mounted Display;-298.872;-589.447;1
+Left Hand Controller;-254.463;-498.831;1
+Right Hand Controller;-209.277;-419.438;1
+Back Tracker;-146.751;-289.049;1
+Left Foot Tracker;-63.9255;-132.158;1
+Right Foot Tracker;-355.78;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_21;
+Head Mounted Display;-300.031;-589.447;1
+Left Hand Controller;-249.611;-498.831;1
+Right Hand Controller;-208.209;-419.438;1
+Back Tracker;-162.802;-289.049;1
+Left Foot Tracker;-63.4025;-132.158;1
+Right Foot Tracker;-396.151;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_22;
+Head Mounted Display;-305.177;-589.447;1
+Left Hand Controller;-256.388;-498.831;1
+Right Hand Controller;-213.046;-419.438;1
+Back Tracker;-151.414;-289.049;1
+Left Foot Tracker;-66.0181;-132.158;1
+Right Foot Tracker;-426.359;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_23;
+Head Mounted Display;-305.673;-589.447;1
+Left Hand Controller;-254.103;-498.831;1
+Right Hand Controller;-209.575;-419.438;1
+Back Tracker;-136.542;-289.049;1
+Left Foot Tracker;-65.5566;-132.158;1
+Right Foot Tracker;-377.769;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_24;
+Head Mounted Display;-300.442;-589.447;1
+Left Hand Controller;-251.968;-498.831;1
+Right Hand Controller;-205.283;-419.438;1
+Back Tracker;-175.453;-289.049;1
+Left Foot Tracker;-62.697;-132.158;1
+Right Foot Tracker;-363.826;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_25;
+Head Mounted Display;-296.473;-589.447;1
+Left Hand Controller;-256.087;-498.831;1
+Right Hand Controller;-209.924;-419.438;1
+Back Tracker;-159.967;-289.049;1
+Left Foot Tracker;-61.8375;-132.158;1
+Right Foot Tracker;-413.1;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_26;
+Head Mounted Display;-297.611;-589.447;1
+Left Hand Controller;-250.579;-498.831;1
+Right Hand Controller;-219.415;-419.438;1
+Back Tracker;-157.581;-289.049;1
+Left Foot Tracker;-64.0213;-132.158;1
+Right Foot Tracker;-401.326;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_27;
+Head Mounted Display;-298.858;-589.447;1
+Left Hand Controller;-254.356;-498.831;1
+Right Hand Controller;-213.695;-419.438;1
+Back Tracker;-170.365;-289.049;1
+Left Foot Tracker;-65.0842;-132.158;1
+Right Foot Tracker;-423.926;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_28;
+Head Mounted Display;-307.436;-589.447;1
+Left Hand Controller;-254.542;-498.831;1
+Right Hand Controller;-208.547;-419.438;1
+Back Tracker;-142.416;-289.049;1
+Left Foot Tracker;-65.0832;-132.158;1
+Right Foot Tracker;-456.664;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_29;
+Head Mounted Display;-277.294;-589.447;1
+Left Hand Controller;-312.018;-498.831;1
+Right Hand Controller;-245.118;-419.438;1
+Back Tracker;-198.244;-289.049;1
+Left Foot Tracker;-51.6157;-132.158;1
+Right Foot Tracker;-489.49;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_30;
+Head Mounted Display;-295.341;-589.447;1
+Left Hand Controller;-248.828;-498.831;1
+Right Hand Controller;-206.354;-419.438;1
+Back Tracker;-145.027;-289.049;1
+Left Foot Tracker;-69.2783;-132.158;1
+Right Foot Tracker;-364.543;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_31;
+Head Mounted Display;-294.855;-589.447;1
+Left Hand Controller;-250.739;-498.831;1
+Right Hand Controller;-210.632;-419.438;1
+Back Tracker;-148.388;-289.049;1
+Left Foot Tracker;-65.0454;-132.158;1
+Right Foot Tracker;-330.585;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_32;
+Head Mounted Display;-300.131;-589.447;1
+Left Hand Controller;-256.221;-498.831;1
+Right Hand Controller;-213.852;-419.438;1
+Back Tracker;-156.834;-289.049;1
+Left Foot Tracker;-62.1018;-132.158;1
+Right Foot Tracker;-453.51;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_33;
+Head Mounted Display;-302.25;-589.447;1
+Left Hand Controller;-280.298;-498.831;1
+Right Hand Controller;-212.702;-419.438;1
+Back Tracker;-159.98;-289.049;1
+Left Foot Tracker;-63.476;-132.158;1
+Right Foot Tracker;-475.071;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_34;
+Head Mounted Display;-302.736;-589.447;1
+Left Hand Controller;-259.993;-498.831;1
+Right Hand Controller;-212.181;-419.438;1
+Back Tracker;-157.244;-289.049;1
+Left Foot Tracker;-60.7148;-132.158;1
+Right Foot Tracker;-442.623;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_35;
+Head Mounted Display;-304.713;-589.447;1
+Left Hand Controller;-268.32;-498.831;1
+Right Hand Controller;-220.652;-419.438;1
+Back Tracker;-155.477;-289.049;1
+Left Foot Tracker;-65.0616;-132.158;1
+Right Foot Tracker;-368.491;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_36;
+Head Mounted Display;-292.884;-589.447;1
+Left Hand Controller;-259.723;-498.831;1
+Right Hand Controller;-209.917;-419.438;1
+Back Tracker;-160.818;-289.049;1
+Left Foot Tracker;-70.036;-132.158;1
+Right Foot Tracker;-349.607;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_37;
+Head Mounted Display;-305.297;-589.447;1
+Left Hand Controller;-243.319;-498.831;1
+Right Hand Controller;-209.009;-419.438;1
+Back Tracker;-170.33;-289.049;1
+Left Foot Tracker;-63.6379;-132.158;1
+Right Foot Tracker;-418.948;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_38;
+Head Mounted Display;-300.909;-589.447;1
+Left Hand Controller;-252.487;-498.831;1
+Right Hand Controller;-209.725;-419.438;1
+Back Tracker;-150.188;-289.049;1
+Left Foot Tracker;-62.4577;-132.158;1
+Right Foot Tracker;-462.166;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_39;
+Head Mounted Display;-314.512;-589.447;1
+Left Hand Controller;-248.998;-498.831;1
+Right Hand Controller;-201.731;-419.438;1
+Back Tracker;-142.134;-289.049;1
+Left Foot Tracker;-65.4733;-132.158;1
+Right Foot Tracker;-363.139;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_40;
+Head Mounted Display;-306.486;-589.447;1
+Left Hand Controller;-266.551;-498.831;1
+Right Hand Controller;-213.147;-419.438;1
+Back Tracker;-159.099;-289.049;1
+Left Foot Tracker;-62.1307;-132.158;1
+Right Foot Tracker;-447.532;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_41;
+Head Mounted Display;-298.189;-589.447;1
+Left Hand Controller;-261.412;-498.831;1
+Right Hand Controller;-208.674;-419.438;1
+Back Tracker;-148.478;-289.049;1
+Left Foot Tracker;-64.035;-132.158;1
+Right Foot Tracker;-402.542;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_42;
+Head Mounted Display;-291.145;-589.447;1
+Left Hand Controller;-254.766;-498.831;1
+Right Hand Controller;-211.274;-419.438;1
+Back Tracker;-146.35;-289.049;1
+Left Foot Tracker;-67.0092;-132.158;1
+Right Foot Tracker;-386.704;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_43;
+Head Mounted Display;-305.85;-589.447;1
+Left Hand Controller;-248.168;-498.831;1
+Right Hand Controller;-211.047;-419.438;1
+Back Tracker;-140.544;-289.049;1
+Left Foot Tracker;-63.9959;-132.158;1
+Right Foot Tracker;-306.943;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_44;
+Head Mounted Display;-300.86;-589.447;1
+Left Hand Controller;-249.184;-498.831;1
+Right Hand Controller;-212.967;-419.438;1
+Back Tracker;-141.31;-289.049;1
+Left Foot Tracker;-65.9097;-132.158;1
+Right Foot Tracker;-342.423;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_45;
+Head Mounted Display;-314.161;-589.447;1
+Left Hand Controller;-248.826;-498.831;1
+Right Hand Controller;-206.257;-419.438;1
+Back Tracker;-131.161;-289.049;1
+Left Foot Tracker;-64.6684;-132.158;1
+Right Foot Tracker;-411.856;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_46;
+Head Mounted Display;-301.619;-589.447;1
+Left Hand Controller;-262.11;-498.831;1
+Right Hand Controller;-209.632;-419.438;1
+Back Tracker;-143.41;-289.049;1
+Left Foot Tracker;-64.1389;-132.158;1
+Right Foot Tracker;-369.144;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_47;
+Head Mounted Display;-299.069;-589.447;1
+Left Hand Controller;-252.934;-498.831;1
+Right Hand Controller;-205.782;-419.438;1
+Back Tracker;-173.526;-289.049;1
+Left Foot Tracker;-76.6182;-132.158;1
+Right Foot Tracker;-348.485;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_48;
+Head Mounted Display;-297.257;-589.447;1
+Left Hand Controller;-244.94;-498.831;1
+Right Hand Controller;-213.599;-419.438;1
+Back Tracker;-132.748;-289.049;1
+Left Foot Tracker;-67.2827;-132.158;1
+Right Foot Tracker;-351.219;-640.814;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_49;
+Head Mounted Display;-299.262;-589.447;1
+Left Hand Controller;-261.725;-498.831;1
+Right Hand Controller;-218.534;-419.438;1
+Back Tracker;-158.228;-289.049;1
+Left Foot Tracker;-63.3158;-132.158;1
+Right Foot Tracker;-391.168;-640.814;1
+The result is 1.
+The recognition probability is 0.98.
+
+Validation test of file:Yoga_Krieger_0;
+Head Mounted Display;-294.727;-1178.89;1
+Left Hand Controller;-249.414;-997.662;1
+Right Hand Controller;-209.718;-838.876;1
+Back Tracker;-144.524;-578.098;1
+Left Foot Tracker;-66.0787;-264.316;1
+Right Foot Tracker;-320.413;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_1;
+Head Mounted Display;-291.038;-1178.89;1
+Left Hand Controller;-260.169;-997.662;1
+Right Hand Controller;-219.943;-838.876;1
+Back Tracker;-149.386;-578.098;1
+Left Foot Tracker;-67.1936;-264.316;1
+Right Foot Tracker;-369.264;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_2;
+Head Mounted Display;-295.889;-1178.89;1
+Left Hand Controller;-250.988;-997.662;1
+Right Hand Controller;-219.706;-838.876;1
+Back Tracker;-172.389;-578.098;1
+Left Foot Tracker;-68.5876;-264.316;1
+Right Foot Tracker;-334.636;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_3;
+Head Mounted Display;-305.463;-1178.89;1
+Left Hand Controller;-248.76;-997.662;1
+Right Hand Controller;-198.476;-838.876;1
+Back Tracker;-134.46;-578.098;1
+Left Foot Tracker;-65.4543;-264.316;1
+Right Foot Tracker;-355.221;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_4;
+Head Mounted Display;-310.064;-1178.89;1
+Left Hand Controller;-268.627;-997.662;1
+Right Hand Controller;-218.162;-838.876;1
+Back Tracker;-130.846;-578.098;1
+Left Foot Tracker;-67.516;-264.316;1
+Right Foot Tracker;-378.178;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_5;
+Head Mounted Display;-304.509;-1178.89;1
+Left Hand Controller;-256.916;-997.662;1
+Right Hand Controller;-220.683;-838.876;1
+Back Tracker;-143.914;-578.098;1
+Left Foot Tracker;-66.5132;-264.316;1
+Right Foot Tracker;-346.88;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_6;
+Head Mounted Display;-304.971;-1178.89;1
+Left Hand Controller;-285.814;-997.662;1
+Right Hand Controller;-238.93;-838.876;1
+Back Tracker;-159.347;-578.098;1
+Left Foot Tracker;-69.124;-264.316;1
+Right Foot Tracker;-348.005;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_7;
+Head Mounted Display;-294.727;-1178.89;1
+Left Hand Controller;-249.414;-997.662;1
+Right Hand Controller;-209.718;-838.876;1
+Back Tracker;-144.524;-578.098;1
+Left Foot Tracker;-66.0787;-264.316;1
+Right Foot Tracker;-320.413;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_8;
+Head Mounted Display;-295.808;-1178.89;1
+Left Hand Controller;-255.861;-997.662;1
+Right Hand Controller;-211.25;-838.876;1
+Back Tracker;-158.234;-578.098;1
+Left Foot Tracker;-60.3138;-264.316;1
+Right Foot Tracker;-391.111;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_9;
+Head Mounted Display;-291.637;-1178.89;1
+Left Hand Controller;-264.129;-997.662;1
+Right Hand Controller;-218.209;-838.876;1
+Back Tracker;-166.076;-578.098;1
+Left Foot Tracker;-63.8943;-264.316;1
+Right Foot Tracker;-341.039;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_10;
+Head Mounted Display;-297.911;-1178.89;1
+Left Hand Controller;-246.388;-997.662;1
+Right Hand Controller;-206.159;-838.876;1
+Back Tracker;-148.476;-578.098;1
+Left Foot Tracker;-63.2912;-264.316;1
+Right Foot Tracker;-362.188;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_11;
+Head Mounted Display;-297.416;-1178.89;1
+Left Hand Controller;-255.822;-997.662;1
+Right Hand Controller;-210.025;-838.876;1
+Back Tracker;-174.274;-578.098;1
+Left Foot Tracker;-61.4594;-264.316;1
+Right Foot Tracker;-420.835;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_12;
+Head Mounted Display;-301.65;-1178.89;1
+Left Hand Controller;-258.33;-997.662;1
+Right Hand Controller;-216.201;-838.876;1
+Back Tracker;-156.112;-578.098;1
+Left Foot Tracker;-63.2997;-264.316;1
+Right Foot Tracker;-444.726;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_13;
+Head Mounted Display;-507.624;-1178.89;1
+Left Hand Controller;-878.301;-997.662;1
+Right Hand Controller;-361.716;-838.876;1
+Back Tracker;-323.05;-578.098;1
+Left Foot Tracker;-244.468;-264.316;1
+Right Foot Tracker;-561.211;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_14;
+Head Mounted Display;-299.507;-1178.89;1
+Left Hand Controller;-265.377;-997.662;1
+Right Hand Controller;-205.686;-838.876;1
+Back Tracker;-175.43;-578.098;1
+Left Foot Tracker;-57.4527;-264.316;1
+Right Foot Tracker;-487.235;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_15;
+Head Mounted Display;-283.972;-1178.89;1
+Left Hand Controller;-293.084;-997.662;1
+Right Hand Controller;-243.368;-838.876;1
+Back Tracker;-180.674;-578.098;1
+Left Foot Tracker;-66.5065;-264.316;1
+Right Foot Tracker;-332.461;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_16;
+Head Mounted Display;-315.44;-1178.89;1
+Left Hand Controller;-254.605;-997.662;1
+Right Hand Controller;-218.89;-838.876;1
+Back Tracker;-136.945;-578.098;1
+Left Foot Tracker;-65.5885;-264.316;1
+Right Foot Tracker;-373.478;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_17;
+Head Mounted Display;-302.911;-1178.89;1
+Left Hand Controller;-271.734;-997.662;1
+Right Hand Controller;-209.998;-838.876;1
+Back Tracker;-150.166;-578.098;1
+Left Foot Tracker;-66.815;-264.316;1
+Right Foot Tracker;-410.591;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_18;
+Head Mounted Display;-308.891;-1178.89;1
+Left Hand Controller;-252.11;-997.662;1
+Right Hand Controller;-212.694;-838.876;1
+Back Tracker;-137.02;-578.098;1
+Left Foot Tracker;-63.4914;-264.316;1
+Right Foot Tracker;-344.147;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_19;
+Head Mounted Display;-284.895;-1178.89;1
+Left Hand Controller;-274.23;-997.662;1
+Right Hand Controller;-219.393;-838.876;1
+Back Tracker;-141.331;-578.098;1
+Left Foot Tracker;-70.7369;-264.316;1
+Right Foot Tracker;-295.767;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_20;
+Head Mounted Display;-298.872;-1178.89;1
+Left Hand Controller;-254.463;-997.662;1
+Right Hand Controller;-209.277;-838.876;1
+Back Tracker;-146.751;-578.098;1
+Left Foot Tracker;-63.9255;-264.316;1
+Right Foot Tracker;-355.78;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_21;
+Head Mounted Display;-300.031;-1178.89;1
+Left Hand Controller;-249.611;-997.662;1
+Right Hand Controller;-208.209;-838.876;1
+Back Tracker;-162.802;-578.098;1
+Left Foot Tracker;-63.4025;-264.316;1
+Right Foot Tracker;-396.151;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_22;
+Head Mounted Display;-305.177;-1178.89;1
+Left Hand Controller;-256.388;-997.662;1
+Right Hand Controller;-213.046;-838.876;1
+Back Tracker;-151.414;-578.098;1
+Left Foot Tracker;-66.0181;-264.316;1
+Right Foot Tracker;-426.359;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_23;
+Head Mounted Display;-305.673;-1178.89;1
+Left Hand Controller;-254.103;-997.662;1
+Right Hand Controller;-209.575;-838.876;1
+Back Tracker;-136.542;-578.098;1
+Left Foot Tracker;-65.5566;-264.316;1
+Right Foot Tracker;-377.769;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_24;
+Head Mounted Display;-300.442;-1178.89;1
+Left Hand Controller;-251.968;-997.662;1
+Right Hand Controller;-205.283;-838.876;1
+Back Tracker;-175.453;-578.098;1
+Left Foot Tracker;-62.697;-264.316;1
+Right Foot Tracker;-363.826;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_25;
+Head Mounted Display;-296.473;-1178.89;1
+Left Hand Controller;-256.087;-997.662;1
+Right Hand Controller;-209.924;-838.876;1
+Back Tracker;-159.967;-578.098;1
+Left Foot Tracker;-61.8375;-264.316;1
+Right Foot Tracker;-413.1;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_26;
+Head Mounted Display;-297.611;-1178.89;1
+Left Hand Controller;-250.579;-997.662;1
+Right Hand Controller;-219.415;-838.876;1
+Back Tracker;-157.581;-578.098;1
+Left Foot Tracker;-64.0213;-264.316;1
+Right Foot Tracker;-401.326;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_27;
+Head Mounted Display;-298.858;-1178.89;1
+Left Hand Controller;-254.356;-997.662;1
+Right Hand Controller;-213.695;-838.876;1
+Back Tracker;-170.365;-578.098;1
+Left Foot Tracker;-65.0842;-264.316;1
+Right Foot Tracker;-423.926;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_28;
+Head Mounted Display;-307.436;-1178.89;1
+Left Hand Controller;-254.542;-997.662;1
+Right Hand Controller;-208.547;-838.876;1
+Back Tracker;-142.416;-578.098;1
+Left Foot Tracker;-65.0832;-264.316;1
+Right Foot Tracker;-456.664;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_29;
+Head Mounted Display;-277.294;-1178.89;1
+Left Hand Controller;-312.018;-997.662;1
+Right Hand Controller;-245.118;-838.876;1
+Back Tracker;-198.244;-578.098;1
+Left Foot Tracker;-51.6157;-264.316;1
+Right Foot Tracker;-489.49;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_30;
+Head Mounted Display;-295.341;-1178.89;1
+Left Hand Controller;-248.828;-997.662;1
+Right Hand Controller;-206.354;-838.876;1
+Back Tracker;-145.027;-578.098;1
+Left Foot Tracker;-69.2783;-264.316;1
+Right Foot Tracker;-364.543;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_31;
+Head Mounted Display;-294.855;-1178.89;1
+Left Hand Controller;-250.739;-997.662;1
+Right Hand Controller;-210.632;-838.876;1
+Back Tracker;-148.388;-578.098;1
+Left Foot Tracker;-65.0454;-264.316;1
+Right Foot Tracker;-330.585;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_32;
+Head Mounted Display;-300.131;-1178.89;1
+Left Hand Controller;-256.221;-997.662;1
+Right Hand Controller;-213.852;-838.876;1
+Back Tracker;-156.834;-578.098;1
+Left Foot Tracker;-62.1018;-264.316;1
+Right Foot Tracker;-453.51;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_33;
+Head Mounted Display;-302.25;-1178.89;1
+Left Hand Controller;-280.298;-997.662;1
+Right Hand Controller;-212.702;-838.876;1
+Back Tracker;-159.98;-578.098;1
+Left Foot Tracker;-63.476;-264.316;1
+Right Foot Tracker;-475.071;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_34;
+Head Mounted Display;-302.736;-1178.89;1
+Left Hand Controller;-259.993;-997.662;1
+Right Hand Controller;-212.181;-838.876;1
+Back Tracker;-157.244;-578.098;1
+Left Foot Tracker;-60.7148;-264.316;1
+Right Foot Tracker;-442.623;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_35;
+Head Mounted Display;-304.713;-1178.89;1
+Left Hand Controller;-268.32;-997.662;1
+Right Hand Controller;-220.652;-838.876;1
+Back Tracker;-155.477;-578.098;1
+Left Foot Tracker;-65.0616;-264.316;1
+Right Foot Tracker;-368.491;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_36;
+Head Mounted Display;-292.884;-1178.89;1
+Left Hand Controller;-259.723;-997.662;1
+Right Hand Controller;-209.917;-838.876;1
+Back Tracker;-160.818;-578.098;1
+Left Foot Tracker;-70.036;-264.316;1
+Right Foot Tracker;-349.607;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_37;
+Head Mounted Display;-305.297;-1178.89;1
+Left Hand Controller;-243.319;-997.662;1
+Right Hand Controller;-209.009;-838.876;1
+Back Tracker;-170.33;-578.098;1
+Left Foot Tracker;-63.6379;-264.316;1
+Right Foot Tracker;-418.948;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_38;
+Head Mounted Display;-300.909;-1178.89;1
+Left Hand Controller;-252.487;-997.662;1
+Right Hand Controller;-209.725;-838.876;1
+Back Tracker;-150.188;-578.098;1
+Left Foot Tracker;-62.4577;-264.316;1
+Right Foot Tracker;-462.166;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_39;
+Head Mounted Display;-314.512;-1178.89;1
+Left Hand Controller;-248.998;-997.662;1
+Right Hand Controller;-201.731;-838.876;1
+Back Tracker;-142.134;-578.098;1
+Left Foot Tracker;-65.4733;-264.316;1
+Right Foot Tracker;-363.139;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_40;
+Head Mounted Display;-306.486;-1178.89;1
+Left Hand Controller;-266.551;-997.662;1
+Right Hand Controller;-213.147;-838.876;1
+Back Tracker;-159.099;-578.098;1
+Left Foot Tracker;-62.1307;-264.316;1
+Right Foot Tracker;-447.532;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_41;
+Head Mounted Display;-298.189;-1178.89;1
+Left Hand Controller;-261.412;-997.662;1
+Right Hand Controller;-208.674;-838.876;1
+Back Tracker;-148.478;-578.098;1
+Left Foot Tracker;-64.035;-264.316;1
+Right Foot Tracker;-402.542;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_42;
+Head Mounted Display;-291.145;-1178.89;1
+Left Hand Controller;-254.766;-997.662;1
+Right Hand Controller;-211.274;-838.876;1
+Back Tracker;-146.35;-578.098;1
+Left Foot Tracker;-67.0092;-264.316;1
+Right Foot Tracker;-386.704;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_43;
+Head Mounted Display;-305.85;-1178.89;1
+Left Hand Controller;-248.168;-997.662;1
+Right Hand Controller;-211.047;-838.876;1
+Back Tracker;-140.544;-578.098;1
+Left Foot Tracker;-63.9959;-264.316;1
+Right Foot Tracker;-306.943;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_44;
+Head Mounted Display;-300.86;-1178.89;1
+Left Hand Controller;-249.184;-997.662;1
+Right Hand Controller;-212.967;-838.876;1
+Back Tracker;-141.31;-578.098;1
+Left Foot Tracker;-65.9097;-264.316;1
+Right Foot Tracker;-342.423;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_45;
+Head Mounted Display;-314.161;-1178.89;1
+Left Hand Controller;-248.826;-997.662;1
+Right Hand Controller;-206.257;-838.876;1
+Back Tracker;-131.161;-578.098;1
+Left Foot Tracker;-64.6684;-264.316;1
+Right Foot Tracker;-411.856;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_46;
+Head Mounted Display;-301.619;-1178.89;1
+Left Hand Controller;-262.11;-997.662;1
+Right Hand Controller;-209.632;-838.876;1
+Back Tracker;-143.41;-578.098;1
+Left Foot Tracker;-64.1389;-264.316;1
+Right Foot Tracker;-369.144;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_47;
+Head Mounted Display;-299.069;-1178.89;1
+Left Hand Controller;-252.934;-997.662;1
+Right Hand Controller;-205.782;-838.876;1
+Back Tracker;-173.526;-578.098;1
+Left Foot Tracker;-76.6182;-264.316;1
+Right Foot Tracker;-348.485;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_48;
+Head Mounted Display;-297.257;-1178.89;1
+Left Hand Controller;-244.94;-997.662;1
+Right Hand Controller;-213.599;-838.876;1
+Back Tracker;-132.748;-578.098;1
+Left Foot Tracker;-67.2827;-264.316;1
+Right Foot Tracker;-351.219;-1281.63;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_49;
+Head Mounted Display;-299.262;-1178.89;1
+Left Hand Controller;-261.725;-997.662;1
+Right Hand Controller;-218.534;-838.876;1
+Back Tracker;-158.228;-578.098;1
+Left Foot Tracker;-63.3158;-264.316;1
+Right Foot Tracker;-391.168;-1281.63;1
+The result is 1.
+The recognition probability is 1.
+
+Validation test of file:Yoga_Krieger_0;
+Head Mounted Display;-294.727;-1768.34;1
+Left Hand Controller;-249.414;-1496.49;1
+Right Hand Controller;-209.718;-1258.31;1
+Back Tracker;-144.524;-867.147;1
+Left Foot Tracker;-66.0787;-396.474;1
+Right Foot Tracker;-320.413;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_1;
+Head Mounted Display;-291.038;-1768.34;1
+Left Hand Controller;-260.169;-1496.49;1
+Right Hand Controller;-219.943;-1258.31;1
+Back Tracker;-149.386;-867.147;1
+Left Foot Tracker;-67.1936;-396.474;1
+Right Foot Tracker;-369.264;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_2;
+Head Mounted Display;-295.889;-1768.34;1
+Left Hand Controller;-250.988;-1496.49;1
+Right Hand Controller;-219.706;-1258.31;1
+Back Tracker;-172.389;-867.147;1
+Left Foot Tracker;-68.5876;-396.474;1
+Right Foot Tracker;-334.636;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_3;
+Head Mounted Display;-305.463;-1768.34;1
+Left Hand Controller;-248.76;-1496.49;1
+Right Hand Controller;-198.476;-1258.31;1
+Back Tracker;-134.46;-867.147;1
+Left Foot Tracker;-65.4543;-396.474;1
+Right Foot Tracker;-355.221;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_4;
+Head Mounted Display;-310.064;-1768.34;1
+Left Hand Controller;-268.627;-1496.49;1
+Right Hand Controller;-218.162;-1258.31;1
+Back Tracker;-130.846;-867.147;1
+Left Foot Tracker;-67.516;-396.474;1
+Right Foot Tracker;-378.178;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_5;
+Head Mounted Display;-304.509;-1768.34;1
+Left Hand Controller;-256.916;-1496.49;1
+Right Hand Controller;-220.683;-1258.31;1
+Back Tracker;-143.914;-867.147;1
+Left Foot Tracker;-66.5132;-396.474;1
+Right Foot Tracker;-346.88;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_6;
+Head Mounted Display;-304.971;-1768.34;1
+Left Hand Controller;-285.814;-1496.49;1
+Right Hand Controller;-238.93;-1258.31;1
+Back Tracker;-159.347;-867.147;1
+Left Foot Tracker;-69.124;-396.474;1
+Right Foot Tracker;-348.005;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_7;
+Head Mounted Display;-294.727;-1768.34;1
+Left Hand Controller;-249.414;-1496.49;1
+Right Hand Controller;-209.718;-1258.31;1
+Back Tracker;-144.524;-867.147;1
+Left Foot Tracker;-66.0787;-396.474;1
+Right Foot Tracker;-320.413;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_8;
+Head Mounted Display;-295.808;-1768.34;1
+Left Hand Controller;-255.861;-1496.49;1
+Right Hand Controller;-211.25;-1258.31;1
+Back Tracker;-158.234;-867.147;1
+Left Foot Tracker;-60.3138;-396.474;1
+Right Foot Tracker;-391.111;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_9;
+Head Mounted Display;-291.637;-1768.34;1
+Left Hand Controller;-264.129;-1496.49;1
+Right Hand Controller;-218.209;-1258.31;1
+Back Tracker;-166.076;-867.147;1
+Left Foot Tracker;-63.8943;-396.474;1
+Right Foot Tracker;-341.039;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_10;
+Head Mounted Display;-297.911;-1768.34;1
+Left Hand Controller;-246.388;-1496.49;1
+Right Hand Controller;-206.159;-1258.31;1
+Back Tracker;-148.476;-867.147;1
+Left Foot Tracker;-63.2912;-396.474;1
+Right Foot Tracker;-362.188;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_11;
+Head Mounted Display;-297.416;-1768.34;1
+Left Hand Controller;-255.822;-1496.49;1
+Right Hand Controller;-210.025;-1258.31;1
+Back Tracker;-174.274;-867.147;1
+Left Foot Tracker;-61.4594;-396.474;1
+Right Foot Tracker;-420.835;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_12;
+Head Mounted Display;-301.65;-1768.34;1
+Left Hand Controller;-258.33;-1496.49;1
+Right Hand Controller;-216.201;-1258.31;1
+Back Tracker;-156.112;-867.147;1
+Left Foot Tracker;-63.2997;-396.474;1
+Right Foot Tracker;-444.726;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_13;
+Head Mounted Display;-507.624;-1768.34;1
+Left Hand Controller;-878.301;-1496.49;1
+Right Hand Controller;-361.716;-1258.31;1
+Back Tracker;-323.05;-867.147;1
+Left Foot Tracker;-244.468;-396.474;1
+Right Foot Tracker;-561.211;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_14;
+Head Mounted Display;-299.507;-1768.34;1
+Left Hand Controller;-265.377;-1496.49;1
+Right Hand Controller;-205.686;-1258.31;1
+Back Tracker;-175.43;-867.147;1
+Left Foot Tracker;-57.4527;-396.474;1
+Right Foot Tracker;-487.235;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_15;
+Head Mounted Display;-283.972;-1768.34;1
+Left Hand Controller;-293.084;-1496.49;1
+Right Hand Controller;-243.368;-1258.31;1
+Back Tracker;-180.674;-867.147;1
+Left Foot Tracker;-66.5065;-396.474;1
+Right Foot Tracker;-332.461;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_16;
+Head Mounted Display;-315.44;-1768.34;1
+Left Hand Controller;-254.605;-1496.49;1
+Right Hand Controller;-218.89;-1258.31;1
+Back Tracker;-136.945;-867.147;1
+Left Foot Tracker;-65.5885;-396.474;1
+Right Foot Tracker;-373.478;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_17;
+Head Mounted Display;-302.911;-1768.34;1
+Left Hand Controller;-271.734;-1496.49;1
+Right Hand Controller;-209.998;-1258.31;1
+Back Tracker;-150.166;-867.147;1
+Left Foot Tracker;-66.815;-396.474;1
+Right Foot Tracker;-410.591;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_18;
+Head Mounted Display;-308.891;-1768.34;1
+Left Hand Controller;-252.11;-1496.49;1
+Right Hand Controller;-212.694;-1258.31;1
+Back Tracker;-137.02;-867.147;1
+Left Foot Tracker;-63.4914;-396.474;1
+Right Foot Tracker;-344.147;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_19;
+Head Mounted Display;-284.895;-1768.34;1
+Left Hand Controller;-274.23;-1496.49;1
+Right Hand Controller;-219.393;-1258.31;1
+Back Tracker;-141.331;-867.147;1
+Left Foot Tracker;-70.7369;-396.474;1
+Right Foot Tracker;-295.767;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_20;
+Head Mounted Display;-298.872;-1768.34;1
+Left Hand Controller;-254.463;-1496.49;1
+Right Hand Controller;-209.277;-1258.31;1
+Back Tracker;-146.751;-867.147;1
+Left Foot Tracker;-63.9255;-396.474;1
+Right Foot Tracker;-355.78;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_21;
+Head Mounted Display;-300.031;-1768.34;1
+Left Hand Controller;-249.611;-1496.49;1
+Right Hand Controller;-208.209;-1258.31;1
+Back Tracker;-162.802;-867.147;1
+Left Foot Tracker;-63.4025;-396.474;1
+Right Foot Tracker;-396.151;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_22;
+Head Mounted Display;-305.177;-1768.34;1
+Left Hand Controller;-256.388;-1496.49;1
+Right Hand Controller;-213.046;-1258.31;1
+Back Tracker;-151.414;-867.147;1
+Left Foot Tracker;-66.0181;-396.474;1
+Right Foot Tracker;-426.359;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_23;
+Head Mounted Display;-305.673;-1768.34;1
+Left Hand Controller;-254.103;-1496.49;1
+Right Hand Controller;-209.575;-1258.31;1
+Back Tracker;-136.542;-867.147;1
+Left Foot Tracker;-65.5566;-396.474;1
+Right Foot Tracker;-377.769;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_24;
+Head Mounted Display;-300.442;-1768.34;1
+Left Hand Controller;-251.968;-1496.49;1
+Right Hand Controller;-205.283;-1258.31;1
+Back Tracker;-175.453;-867.147;1
+Left Foot Tracker;-62.697;-396.474;1
+Right Foot Tracker;-363.826;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_25;
+Head Mounted Display;-296.473;-1768.34;1
+Left Hand Controller;-256.087;-1496.49;1
+Right Hand Controller;-209.924;-1258.31;1
+Back Tracker;-159.967;-867.147;1
+Left Foot Tracker;-61.8375;-396.474;1
+Right Foot Tracker;-413.1;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_26;
+Head Mounted Display;-297.611;-1768.34;1
+Left Hand Controller;-250.579;-1496.49;1
+Right Hand Controller;-219.415;-1258.31;1
+Back Tracker;-157.581;-867.147;1
+Left Foot Tracker;-64.0213;-396.474;1
+Right Foot Tracker;-401.326;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_27;
+Head Mounted Display;-298.858;-1768.34;1
+Left Hand Controller;-254.356;-1496.49;1
+Right Hand Controller;-213.695;-1258.31;1
+Back Tracker;-170.365;-867.147;1
+Left Foot Tracker;-65.0842;-396.474;1
+Right Foot Tracker;-423.926;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_28;
+Head Mounted Display;-307.436;-1768.34;1
+Left Hand Controller;-254.542;-1496.49;1
+Right Hand Controller;-208.547;-1258.31;1
+Back Tracker;-142.416;-867.147;1
+Left Foot Tracker;-65.0832;-396.474;1
+Right Foot Tracker;-456.664;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_29;
+Head Mounted Display;-277.294;-1768.34;1
+Left Hand Controller;-312.018;-1496.49;1
+Right Hand Controller;-245.118;-1258.31;1
+Back Tracker;-198.244;-867.147;1
+Left Foot Tracker;-51.6157;-396.474;1
+Right Foot Tracker;-489.49;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_30;
+Head Mounted Display;-295.341;-1768.34;1
+Left Hand Controller;-248.828;-1496.49;1
+Right Hand Controller;-206.354;-1258.31;1
+Back Tracker;-145.027;-867.147;1
+Left Foot Tracker;-69.2783;-396.474;1
+Right Foot Tracker;-364.543;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_31;
+Head Mounted Display;-294.855;-1768.34;1
+Left Hand Controller;-250.739;-1496.49;1
+Right Hand Controller;-210.632;-1258.31;1
+Back Tracker;-148.388;-867.147;1
+Left Foot Tracker;-65.0454;-396.474;1
+Right Foot Tracker;-330.585;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_32;
+Head Mounted Display;-300.131;-1768.34;1
+Left Hand Controller;-256.221;-1496.49;1
+Right Hand Controller;-213.852;-1258.31;1
+Back Tracker;-156.834;-867.147;1
+Left Foot Tracker;-62.1018;-396.474;1
+Right Foot Tracker;-453.51;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_33;
+Head Mounted Display;-302.25;-1768.34;1
+Left Hand Controller;-280.298;-1496.49;1
+Right Hand Controller;-212.702;-1258.31;1
+Back Tracker;-159.98;-867.147;1
+Left Foot Tracker;-63.476;-396.474;1
+Right Foot Tracker;-475.071;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_34;
+Head Mounted Display;-302.736;-1768.34;1
+Left Hand Controller;-259.993;-1496.49;1
+Right Hand Controller;-212.181;-1258.31;1
+Back Tracker;-157.244;-867.147;1
+Left Foot Tracker;-60.7148;-396.474;1
+Right Foot Tracker;-442.623;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_35;
+Head Mounted Display;-304.713;-1768.34;1
+Left Hand Controller;-268.32;-1496.49;1
+Right Hand Controller;-220.652;-1258.31;1
+Back Tracker;-155.477;-867.147;1
+Left Foot Tracker;-65.0616;-396.474;1
+Right Foot Tracker;-368.491;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_36;
+Head Mounted Display;-292.884;-1768.34;1
+Left Hand Controller;-259.723;-1496.49;1
+Right Hand Controller;-209.917;-1258.31;1
+Back Tracker;-160.818;-867.147;1
+Left Foot Tracker;-70.036;-396.474;1
+Right Foot Tracker;-349.607;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_37;
+Head Mounted Display;-305.297;-1768.34;1
+Left Hand Controller;-243.319;-1496.49;1
+Right Hand Controller;-209.009;-1258.31;1
+Back Tracker;-170.33;-867.147;1
+Left Foot Tracker;-63.6379;-396.474;1
+Right Foot Tracker;-418.948;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_38;
+Head Mounted Display;-300.909;-1768.34;1
+Left Hand Controller;-252.487;-1496.49;1
+Right Hand Controller;-209.725;-1258.31;1
+Back Tracker;-150.188;-867.147;1
+Left Foot Tracker;-62.4577;-396.474;1
+Right Foot Tracker;-462.166;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_39;
+Head Mounted Display;-314.512;-1768.34;1
+Left Hand Controller;-248.998;-1496.49;1
+Right Hand Controller;-201.731;-1258.31;1
+Back Tracker;-142.134;-867.147;1
+Left Foot Tracker;-65.4733;-396.474;1
+Right Foot Tracker;-363.139;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_40;
+Head Mounted Display;-306.486;-1768.34;1
+Left Hand Controller;-266.551;-1496.49;1
+Right Hand Controller;-213.147;-1258.31;1
+Back Tracker;-159.099;-867.147;1
+Left Foot Tracker;-62.1307;-396.474;1
+Right Foot Tracker;-447.532;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_41;
+Head Mounted Display;-298.189;-1768.34;1
+Left Hand Controller;-261.412;-1496.49;1
+Right Hand Controller;-208.674;-1258.31;1
+Back Tracker;-148.478;-867.147;1
+Left Foot Tracker;-64.035;-396.474;1
+Right Foot Tracker;-402.542;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_42;
+Head Mounted Display;-291.145;-1768.34;1
+Left Hand Controller;-254.766;-1496.49;1
+Right Hand Controller;-211.274;-1258.31;1
+Back Tracker;-146.35;-867.147;1
+Left Foot Tracker;-67.0092;-396.474;1
+Right Foot Tracker;-386.704;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_43;
+Head Mounted Display;-305.85;-1768.34;1
+Left Hand Controller;-248.168;-1496.49;1
+Right Hand Controller;-211.047;-1258.31;1
+Back Tracker;-140.544;-867.147;1
+Left Foot Tracker;-63.9959;-396.474;1
+Right Foot Tracker;-306.943;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_44;
+Head Mounted Display;-300.86;-1768.34;1
+Left Hand Controller;-249.184;-1496.49;1
+Right Hand Controller;-212.967;-1258.31;1
+Back Tracker;-141.31;-867.147;1
+Left Foot Tracker;-65.9097;-396.474;1
+Right Foot Tracker;-342.423;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_45;
+Head Mounted Display;-314.161;-1768.34;1
+Left Hand Controller;-248.826;-1496.49;1
+Right Hand Controller;-206.257;-1258.31;1
+Back Tracker;-131.161;-867.147;1
+Left Foot Tracker;-64.6684;-396.474;1
+Right Foot Tracker;-411.856;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_46;
+Head Mounted Display;-301.619;-1768.34;1
+Left Hand Controller;-262.11;-1496.49;1
+Right Hand Controller;-209.632;-1258.31;1
+Back Tracker;-143.41;-867.147;1
+Left Foot Tracker;-64.1389;-396.474;1
+Right Foot Tracker;-369.144;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_47;
+Head Mounted Display;-299.069;-1768.34;1
+Left Hand Controller;-252.934;-1496.49;1
+Right Hand Controller;-205.782;-1258.31;1
+Back Tracker;-173.526;-867.147;1
+Left Foot Tracker;-76.6182;-396.474;1
+Right Foot Tracker;-348.485;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_48;
+Head Mounted Display;-297.257;-1768.34;1
+Left Hand Controller;-244.94;-1496.49;1
+Right Hand Controller;-213.599;-1258.31;1
+Back Tracker;-132.748;-867.147;1
+Left Foot Tracker;-67.2827;-396.474;1
+Right Foot Tracker;-351.219;-1922.44;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_49;
+Head Mounted Display;-299.262;-1768.34;1
+Left Hand Controller;-261.725;-1496.49;1
+Right Hand Controller;-218.534;-1258.31;1
+Back Tracker;-158.228;-867.147;1
+Left Foot Tracker;-63.3158;-396.474;1
+Right Foot Tracker;-391.168;-1922.44;1
+The result is 1.
+The recognition probability is 1.
+
+Validation test of file:Yoga_Krieger_0;
+Head Mounted Display;-294.727;-2357.79;1
+Left Hand Controller;-249.414;-1995.32;1
+Right Hand Controller;-209.718;-1677.75;1
+Back Tracker;-144.524;-1156.2;1
+Left Foot Tracker;-66.0787;-528.632;1
+Right Foot Tracker;-320.413;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_1;
+Head Mounted Display;-291.038;-2357.79;1
+Left Hand Controller;-260.169;-1995.32;1
+Right Hand Controller;-219.943;-1677.75;1
+Back Tracker;-149.386;-1156.2;1
+Left Foot Tracker;-67.1936;-528.632;1
+Right Foot Tracker;-369.264;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_2;
+Head Mounted Display;-295.889;-2357.79;1
+Left Hand Controller;-250.988;-1995.32;1
+Right Hand Controller;-219.706;-1677.75;1
+Back Tracker;-172.389;-1156.2;1
+Left Foot Tracker;-68.5876;-528.632;1
+Right Foot Tracker;-334.636;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_3;
+Head Mounted Display;-305.463;-2357.79;1
+Left Hand Controller;-248.76;-1995.32;1
+Right Hand Controller;-198.476;-1677.75;1
+Back Tracker;-134.46;-1156.2;1
+Left Foot Tracker;-65.4543;-528.632;1
+Right Foot Tracker;-355.221;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_4;
+Head Mounted Display;-310.064;-2357.79;1
+Left Hand Controller;-268.627;-1995.32;1
+Right Hand Controller;-218.162;-1677.75;1
+Back Tracker;-130.846;-1156.2;1
+Left Foot Tracker;-67.516;-528.632;1
+Right Foot Tracker;-378.178;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_5;
+Head Mounted Display;-304.509;-2357.79;1
+Left Hand Controller;-256.916;-1995.32;1
+Right Hand Controller;-220.683;-1677.75;1
+Back Tracker;-143.914;-1156.2;1
+Left Foot Tracker;-66.5132;-528.632;1
+Right Foot Tracker;-346.88;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_6;
+Head Mounted Display;-304.971;-2357.79;1
+Left Hand Controller;-285.814;-1995.32;1
+Right Hand Controller;-238.93;-1677.75;1
+Back Tracker;-159.347;-1156.2;1
+Left Foot Tracker;-69.124;-528.632;1
+Right Foot Tracker;-348.005;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_7;
+Head Mounted Display;-294.727;-2357.79;1
+Left Hand Controller;-249.414;-1995.32;1
+Right Hand Controller;-209.718;-1677.75;1
+Back Tracker;-144.524;-1156.2;1
+Left Foot Tracker;-66.0787;-528.632;1
+Right Foot Tracker;-320.413;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_8;
+Head Mounted Display;-295.808;-2357.79;1
+Left Hand Controller;-255.861;-1995.32;1
+Right Hand Controller;-211.25;-1677.75;1
+Back Tracker;-158.234;-1156.2;1
+Left Foot Tracker;-60.3138;-528.632;1
+Right Foot Tracker;-391.111;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_9;
+Head Mounted Display;-291.637;-2357.79;1
+Left Hand Controller;-264.129;-1995.32;1
+Right Hand Controller;-218.209;-1677.75;1
+Back Tracker;-166.076;-1156.2;1
+Left Foot Tracker;-63.8943;-528.632;1
+Right Foot Tracker;-341.039;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_10;
+Head Mounted Display;-297.911;-2357.79;1
+Left Hand Controller;-246.388;-1995.32;1
+Right Hand Controller;-206.159;-1677.75;1
+Back Tracker;-148.476;-1156.2;1
+Left Foot Tracker;-63.2912;-528.632;1
+Right Foot Tracker;-362.188;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_11;
+Head Mounted Display;-297.416;-2357.79;1
+Left Hand Controller;-255.822;-1995.32;1
+Right Hand Controller;-210.025;-1677.75;1
+Back Tracker;-174.274;-1156.2;1
+Left Foot Tracker;-61.4594;-528.632;1
+Right Foot Tracker;-420.835;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_12;
+Head Mounted Display;-301.65;-2357.79;1
+Left Hand Controller;-258.33;-1995.32;1
+Right Hand Controller;-216.201;-1677.75;1
+Back Tracker;-156.112;-1156.2;1
+Left Foot Tracker;-63.2997;-528.632;1
+Right Foot Tracker;-444.726;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_13;
+Head Mounted Display;-507.624;-2357.79;1
+Left Hand Controller;-878.301;-1995.32;1
+Right Hand Controller;-361.716;-1677.75;1
+Back Tracker;-323.05;-1156.2;1
+Left Foot Tracker;-244.468;-528.632;1
+Right Foot Tracker;-561.211;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_14;
+Head Mounted Display;-299.507;-2357.79;1
+Left Hand Controller;-265.377;-1995.32;1
+Right Hand Controller;-205.686;-1677.75;1
+Back Tracker;-175.43;-1156.2;1
+Left Foot Tracker;-57.4527;-528.632;1
+Right Foot Tracker;-487.235;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_15;
+Head Mounted Display;-283.972;-2357.79;1
+Left Hand Controller;-293.084;-1995.32;1
+Right Hand Controller;-243.368;-1677.75;1
+Back Tracker;-180.674;-1156.2;1
+Left Foot Tracker;-66.5065;-528.632;1
+Right Foot Tracker;-332.461;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_16;
+Head Mounted Display;-315.44;-2357.79;1
+Left Hand Controller;-254.605;-1995.32;1
+Right Hand Controller;-218.89;-1677.75;1
+Back Tracker;-136.945;-1156.2;1
+Left Foot Tracker;-65.5885;-528.632;1
+Right Foot Tracker;-373.478;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_17;
+Head Mounted Display;-302.911;-2357.79;1
+Left Hand Controller;-271.734;-1995.32;1
+Right Hand Controller;-209.998;-1677.75;1
+Back Tracker;-150.166;-1156.2;1
+Left Foot Tracker;-66.815;-528.632;1
+Right Foot Tracker;-410.591;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_18;
+Head Mounted Display;-308.891;-2357.79;1
+Left Hand Controller;-252.11;-1995.32;1
+Right Hand Controller;-212.694;-1677.75;1
+Back Tracker;-137.02;-1156.2;1
+Left Foot Tracker;-63.4914;-528.632;1
+Right Foot Tracker;-344.147;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_19;
+Head Mounted Display;-284.895;-2357.79;1
+Left Hand Controller;-274.23;-1995.32;1
+Right Hand Controller;-219.393;-1677.75;1
+Back Tracker;-141.331;-1156.2;1
+Left Foot Tracker;-70.7369;-528.632;1
+Right Foot Tracker;-295.767;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_20;
+Head Mounted Display;-298.872;-2357.79;1
+Left Hand Controller;-254.463;-1995.32;1
+Right Hand Controller;-209.277;-1677.75;1
+Back Tracker;-146.751;-1156.2;1
+Left Foot Tracker;-63.9255;-528.632;1
+Right Foot Tracker;-355.78;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_21;
+Head Mounted Display;-300.031;-2357.79;1
+Left Hand Controller;-249.611;-1995.32;1
+Right Hand Controller;-208.209;-1677.75;1
+Back Tracker;-162.802;-1156.2;1
+Left Foot Tracker;-63.4025;-528.632;1
+Right Foot Tracker;-396.151;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_22;
+Head Mounted Display;-305.177;-2357.79;1
+Left Hand Controller;-256.388;-1995.32;1
+Right Hand Controller;-213.046;-1677.75;1
+Back Tracker;-151.414;-1156.2;1
+Left Foot Tracker;-66.0181;-528.632;1
+Right Foot Tracker;-426.359;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_23;
+Head Mounted Display;-305.673;-2357.79;1
+Left Hand Controller;-254.103;-1995.32;1
+Right Hand Controller;-209.575;-1677.75;1
+Back Tracker;-136.542;-1156.2;1
+Left Foot Tracker;-65.5566;-528.632;1
+Right Foot Tracker;-377.769;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_24;
+Head Mounted Display;-300.442;-2357.79;1
+Left Hand Controller;-251.968;-1995.32;1
+Right Hand Controller;-205.283;-1677.75;1
+Back Tracker;-175.453;-1156.2;1
+Left Foot Tracker;-62.697;-528.632;1
+Right Foot Tracker;-363.826;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_25;
+Head Mounted Display;-296.473;-2357.79;1
+Left Hand Controller;-256.087;-1995.32;1
+Right Hand Controller;-209.924;-1677.75;1
+Back Tracker;-159.967;-1156.2;1
+Left Foot Tracker;-61.8375;-528.632;1
+Right Foot Tracker;-413.1;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_26;
+Head Mounted Display;-297.611;-2357.79;1
+Left Hand Controller;-250.579;-1995.32;1
+Right Hand Controller;-219.415;-1677.75;1
+Back Tracker;-157.581;-1156.2;1
+Left Foot Tracker;-64.0213;-528.632;1
+Right Foot Tracker;-401.326;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_27;
+Head Mounted Display;-298.858;-2357.79;1
+Left Hand Controller;-254.356;-1995.32;1
+Right Hand Controller;-213.695;-1677.75;1
+Back Tracker;-170.365;-1156.2;1
+Left Foot Tracker;-65.0842;-528.632;1
+Right Foot Tracker;-423.926;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_28;
+Head Mounted Display;-307.436;-2357.79;1
+Left Hand Controller;-254.542;-1995.32;1
+Right Hand Controller;-208.547;-1677.75;1
+Back Tracker;-142.416;-1156.2;1
+Left Foot Tracker;-65.0832;-528.632;1
+Right Foot Tracker;-456.664;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_29;
+Head Mounted Display;-277.294;-2357.79;1
+Left Hand Controller;-312.018;-1995.32;1
+Right Hand Controller;-245.118;-1677.75;1
+Back Tracker;-198.244;-1156.2;1
+Left Foot Tracker;-51.6157;-528.632;1
+Right Foot Tracker;-489.49;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_30;
+Head Mounted Display;-295.341;-2357.79;1
+Left Hand Controller;-248.828;-1995.32;1
+Right Hand Controller;-206.354;-1677.75;1
+Back Tracker;-145.027;-1156.2;1
+Left Foot Tracker;-69.2783;-528.632;1
+Right Foot Tracker;-364.543;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_31;
+Head Mounted Display;-294.855;-2357.79;1
+Left Hand Controller;-250.739;-1995.32;1
+Right Hand Controller;-210.632;-1677.75;1
+Back Tracker;-148.388;-1156.2;1
+Left Foot Tracker;-65.0454;-528.632;1
+Right Foot Tracker;-330.585;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_32;
+Head Mounted Display;-300.131;-2357.79;1
+Left Hand Controller;-256.221;-1995.32;1
+Right Hand Controller;-213.852;-1677.75;1
+Back Tracker;-156.834;-1156.2;1
+Left Foot Tracker;-62.1018;-528.632;1
+Right Foot Tracker;-453.51;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_33;
+Head Mounted Display;-302.25;-2357.79;1
+Left Hand Controller;-280.298;-1995.32;1
+Right Hand Controller;-212.702;-1677.75;1
+Back Tracker;-159.98;-1156.2;1
+Left Foot Tracker;-63.476;-528.632;1
+Right Foot Tracker;-475.071;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_34;
+Head Mounted Display;-302.736;-2357.79;1
+Left Hand Controller;-259.993;-1995.32;1
+Right Hand Controller;-212.181;-1677.75;1
+Back Tracker;-157.244;-1156.2;1
+Left Foot Tracker;-60.7148;-528.632;1
+Right Foot Tracker;-442.623;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_35;
+Head Mounted Display;-304.713;-2357.79;1
+Left Hand Controller;-268.32;-1995.32;1
+Right Hand Controller;-220.652;-1677.75;1
+Back Tracker;-155.477;-1156.2;1
+Left Foot Tracker;-65.0616;-528.632;1
+Right Foot Tracker;-368.491;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_36;
+Head Mounted Display;-292.884;-2357.79;1
+Left Hand Controller;-259.723;-1995.32;1
+Right Hand Controller;-209.917;-1677.75;1
+Back Tracker;-160.818;-1156.2;1
+Left Foot Tracker;-70.036;-528.632;1
+Right Foot Tracker;-349.607;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_37;
+Head Mounted Display;-305.297;-2357.79;1
+Left Hand Controller;-243.319;-1995.32;1
+Right Hand Controller;-209.009;-1677.75;1
+Back Tracker;-170.33;-1156.2;1
+Left Foot Tracker;-63.6379;-528.632;1
+Right Foot Tracker;-418.948;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_38;
+Head Mounted Display;-300.909;-2357.79;1
+Left Hand Controller;-252.487;-1995.32;1
+Right Hand Controller;-209.725;-1677.75;1
+Back Tracker;-150.188;-1156.2;1
+Left Foot Tracker;-62.4577;-528.632;1
+Right Foot Tracker;-462.166;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_39;
+Head Mounted Display;-314.512;-2357.79;1
+Left Hand Controller;-248.998;-1995.32;1
+Right Hand Controller;-201.731;-1677.75;1
+Back Tracker;-142.134;-1156.2;1
+Left Foot Tracker;-65.4733;-528.632;1
+Right Foot Tracker;-363.139;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_40;
+Head Mounted Display;-306.486;-2357.79;1
+Left Hand Controller;-266.551;-1995.32;1
+Right Hand Controller;-213.147;-1677.75;1
+Back Tracker;-159.099;-1156.2;1
+Left Foot Tracker;-62.1307;-528.632;1
+Right Foot Tracker;-447.532;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_41;
+Head Mounted Display;-298.189;-2357.79;1
+Left Hand Controller;-261.412;-1995.32;1
+Right Hand Controller;-208.674;-1677.75;1
+Back Tracker;-148.478;-1156.2;1
+Left Foot Tracker;-64.035;-528.632;1
+Right Foot Tracker;-402.542;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_42;
+Head Mounted Display;-291.145;-2357.79;1
+Left Hand Controller;-254.766;-1995.32;1
+Right Hand Controller;-211.274;-1677.75;1
+Back Tracker;-146.35;-1156.2;1
+Left Foot Tracker;-67.0092;-528.632;1
+Right Foot Tracker;-386.704;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_43;
+Head Mounted Display;-305.85;-2357.79;1
+Left Hand Controller;-248.168;-1995.32;1
+Right Hand Controller;-211.047;-1677.75;1
+Back Tracker;-140.544;-1156.2;1
+Left Foot Tracker;-63.9959;-528.632;1
+Right Foot Tracker;-306.943;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_44;
+Head Mounted Display;-300.86;-2357.79;1
+Left Hand Controller;-249.184;-1995.32;1
+Right Hand Controller;-212.967;-1677.75;1
+Back Tracker;-141.31;-1156.2;1
+Left Foot Tracker;-65.9097;-528.632;1
+Right Foot Tracker;-342.423;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_45;
+Head Mounted Display;-314.161;-2357.79;1
+Left Hand Controller;-248.826;-1995.32;1
+Right Hand Controller;-206.257;-1677.75;1
+Back Tracker;-131.161;-1156.2;1
+Left Foot Tracker;-64.6684;-528.632;1
+Right Foot Tracker;-411.856;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_46;
+Head Mounted Display;-301.619;-2357.79;1
+Left Hand Controller;-262.11;-1995.32;1
+Right Hand Controller;-209.632;-1677.75;1
+Back Tracker;-143.41;-1156.2;1
+Left Foot Tracker;-64.1389;-528.632;1
+Right Foot Tracker;-369.144;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_47;
+Head Mounted Display;-299.069;-2357.79;1
+Left Hand Controller;-252.934;-1995.32;1
+Right Hand Controller;-205.782;-1677.75;1
+Back Tracker;-173.526;-1156.2;1
+Left Foot Tracker;-76.6182;-528.632;1
+Right Foot Tracker;-348.485;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_48;
+Head Mounted Display;-297.257;-2357.79;1
+Left Hand Controller;-244.94;-1995.32;1
+Right Hand Controller;-213.599;-1677.75;1
+Back Tracker;-132.748;-1156.2;1
+Left Foot Tracker;-67.2827;-528.632;1
+Right Foot Tracker;-351.219;-2563.26;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_49;
+Head Mounted Display;-299.262;-2357.79;1
+Left Hand Controller;-261.725;-1995.32;1
+Right Hand Controller;-218.534;-1677.75;1
+Back Tracker;-158.228;-1156.2;1
+Left Foot Tracker;-63.3158;-528.632;1
+Right Foot Tracker;-391.168;-2563.26;1
+The result is 1.
+The recognition probability is 1.
+
+Validation test of file:Yoga_Krieger_0;
+Head Mounted Display;-294.727;-2947.24;1
+Left Hand Controller;-249.414;-2494.16;1
+Right Hand Controller;-209.718;-2097.19;1
+Back Tracker;-144.524;-1445.24;1
+Left Foot Tracker;-66.0787;-660.79;1
+Right Foot Tracker;-320.413;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_1;
+Head Mounted Display;-291.038;-2947.24;1
+Left Hand Controller;-260.169;-2494.16;1
+Right Hand Controller;-219.943;-2097.19;1
+Back Tracker;-149.386;-1445.24;1
+Left Foot Tracker;-67.1936;-660.79;1
+Right Foot Tracker;-369.264;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_2;
+Head Mounted Display;-295.889;-2947.24;1
+Left Hand Controller;-250.988;-2494.16;1
+Right Hand Controller;-219.706;-2097.19;1
+Back Tracker;-172.389;-1445.24;1
+Left Foot Tracker;-68.5876;-660.79;1
+Right Foot Tracker;-334.636;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_3;
+Head Mounted Display;-305.463;-2947.24;1
+Left Hand Controller;-248.76;-2494.16;1
+Right Hand Controller;-198.476;-2097.19;1
+Back Tracker;-134.46;-1445.24;1
+Left Foot Tracker;-65.4543;-660.79;1
+Right Foot Tracker;-355.221;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_4;
+Head Mounted Display;-310.064;-2947.24;1
+Left Hand Controller;-268.627;-2494.16;1
+Right Hand Controller;-218.162;-2097.19;1
+Back Tracker;-130.846;-1445.24;1
+Left Foot Tracker;-67.516;-660.79;1
+Right Foot Tracker;-378.178;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_5;
+Head Mounted Display;-304.509;-2947.24;1
+Left Hand Controller;-256.916;-2494.16;1
+Right Hand Controller;-220.683;-2097.19;1
+Back Tracker;-143.914;-1445.24;1
+Left Foot Tracker;-66.5132;-660.79;1
+Right Foot Tracker;-346.88;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_6;
+Head Mounted Display;-304.971;-2947.24;1
+Left Hand Controller;-285.814;-2494.16;1
+Right Hand Controller;-238.93;-2097.19;1
+Back Tracker;-159.347;-1445.24;1
+Left Foot Tracker;-69.124;-660.79;1
+Right Foot Tracker;-348.005;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_7;
+Head Mounted Display;-294.727;-2947.24;1
+Left Hand Controller;-249.414;-2494.16;1
+Right Hand Controller;-209.718;-2097.19;1
+Back Tracker;-144.524;-1445.24;1
+Left Foot Tracker;-66.0787;-660.79;1
+Right Foot Tracker;-320.413;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_8;
+Head Mounted Display;-295.808;-2947.24;1
+Left Hand Controller;-255.861;-2494.16;1
+Right Hand Controller;-211.25;-2097.19;1
+Back Tracker;-158.234;-1445.24;1
+Left Foot Tracker;-60.3138;-660.79;1
+Right Foot Tracker;-391.111;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_9;
+Head Mounted Display;-291.637;-2947.24;1
+Left Hand Controller;-264.129;-2494.16;1
+Right Hand Controller;-218.209;-2097.19;1
+Back Tracker;-166.076;-1445.24;1
+Left Foot Tracker;-63.8943;-660.79;1
+Right Foot Tracker;-341.039;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_10;
+Head Mounted Display;-297.911;-2947.24;1
+Left Hand Controller;-246.388;-2494.16;1
+Right Hand Controller;-206.159;-2097.19;1
+Back Tracker;-148.476;-1445.24;1
+Left Foot Tracker;-63.2912;-660.79;1
+Right Foot Tracker;-362.188;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_11;
+Head Mounted Display;-297.416;-2947.24;1
+Left Hand Controller;-255.822;-2494.16;1
+Right Hand Controller;-210.025;-2097.19;1
+Back Tracker;-174.274;-1445.24;1
+Left Foot Tracker;-61.4594;-660.79;1
+Right Foot Tracker;-420.835;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_12;
+Head Mounted Display;-301.65;-2947.24;1
+Left Hand Controller;-258.33;-2494.16;1
+Right Hand Controller;-216.201;-2097.19;1
+Back Tracker;-156.112;-1445.24;1
+Left Foot Tracker;-63.2997;-660.79;1
+Right Foot Tracker;-444.726;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_13;
+Head Mounted Display;-507.624;-2947.24;1
+Left Hand Controller;-878.301;-2494.16;1
+Right Hand Controller;-361.716;-2097.19;1
+Back Tracker;-323.05;-1445.24;1
+Left Foot Tracker;-244.468;-660.79;1
+Right Foot Tracker;-561.211;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_14;
+Head Mounted Display;-299.507;-2947.24;1
+Left Hand Controller;-265.377;-2494.16;1
+Right Hand Controller;-205.686;-2097.19;1
+Back Tracker;-175.43;-1445.24;1
+Left Foot Tracker;-57.4527;-660.79;1
+Right Foot Tracker;-487.235;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_15;
+Head Mounted Display;-283.972;-2947.24;1
+Left Hand Controller;-293.084;-2494.16;1
+Right Hand Controller;-243.368;-2097.19;1
+Back Tracker;-180.674;-1445.24;1
+Left Foot Tracker;-66.5065;-660.79;1
+Right Foot Tracker;-332.461;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_16;
+Head Mounted Display;-315.44;-2947.24;1
+Left Hand Controller;-254.605;-2494.16;1
+Right Hand Controller;-218.89;-2097.19;1
+Back Tracker;-136.945;-1445.24;1
+Left Foot Tracker;-65.5885;-660.79;1
+Right Foot Tracker;-373.478;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_17;
+Head Mounted Display;-302.911;-2947.24;1
+Left Hand Controller;-271.734;-2494.16;1
+Right Hand Controller;-209.998;-2097.19;1
+Back Tracker;-150.166;-1445.24;1
+Left Foot Tracker;-66.815;-660.79;1
+Right Foot Tracker;-410.591;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_18;
+Head Mounted Display;-308.891;-2947.24;1
+Left Hand Controller;-252.11;-2494.16;1
+Right Hand Controller;-212.694;-2097.19;1
+Back Tracker;-137.02;-1445.24;1
+Left Foot Tracker;-63.4914;-660.79;1
+Right Foot Tracker;-344.147;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_19;
+Head Mounted Display;-284.895;-2947.24;1
+Left Hand Controller;-274.23;-2494.16;1
+Right Hand Controller;-219.393;-2097.19;1
+Back Tracker;-141.331;-1445.24;1
+Left Foot Tracker;-70.7369;-660.79;1
+Right Foot Tracker;-295.767;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_20;
+Head Mounted Display;-298.872;-2947.24;1
+Left Hand Controller;-254.463;-2494.16;1
+Right Hand Controller;-209.277;-2097.19;1
+Back Tracker;-146.751;-1445.24;1
+Left Foot Tracker;-63.9255;-660.79;1
+Right Foot Tracker;-355.78;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_21;
+Head Mounted Display;-300.031;-2947.24;1
+Left Hand Controller;-249.611;-2494.16;1
+Right Hand Controller;-208.209;-2097.19;1
+Back Tracker;-162.802;-1445.24;1
+Left Foot Tracker;-63.4025;-660.79;1
+Right Foot Tracker;-396.151;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_22;
+Head Mounted Display;-305.177;-2947.24;1
+Left Hand Controller;-256.388;-2494.16;1
+Right Hand Controller;-213.046;-2097.19;1
+Back Tracker;-151.414;-1445.24;1
+Left Foot Tracker;-66.0181;-660.79;1
+Right Foot Tracker;-426.359;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_23;
+Head Mounted Display;-305.673;-2947.24;1
+Left Hand Controller;-254.103;-2494.16;1
+Right Hand Controller;-209.575;-2097.19;1
+Back Tracker;-136.542;-1445.24;1
+Left Foot Tracker;-65.5566;-660.79;1
+Right Foot Tracker;-377.769;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_24;
+Head Mounted Display;-300.442;-2947.24;1
+Left Hand Controller;-251.968;-2494.16;1
+Right Hand Controller;-205.283;-2097.19;1
+Back Tracker;-175.453;-1445.24;1
+Left Foot Tracker;-62.697;-660.79;1
+Right Foot Tracker;-363.826;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_25;
+Head Mounted Display;-296.473;-2947.24;1
+Left Hand Controller;-256.087;-2494.16;1
+Right Hand Controller;-209.924;-2097.19;1
+Back Tracker;-159.967;-1445.24;1
+Left Foot Tracker;-61.8375;-660.79;1
+Right Foot Tracker;-413.1;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_26;
+Head Mounted Display;-297.611;-2947.24;1
+Left Hand Controller;-250.579;-2494.16;1
+Right Hand Controller;-219.415;-2097.19;1
+Back Tracker;-157.581;-1445.24;1
+Left Foot Tracker;-64.0213;-660.79;1
+Right Foot Tracker;-401.326;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_27;
+Head Mounted Display;-298.858;-2947.24;1
+Left Hand Controller;-254.356;-2494.16;1
+Right Hand Controller;-213.695;-2097.19;1
+Back Tracker;-170.365;-1445.24;1
+Left Foot Tracker;-65.0842;-660.79;1
+Right Foot Tracker;-423.926;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_28;
+Head Mounted Display;-307.436;-2947.24;1
+Left Hand Controller;-254.542;-2494.16;1
+Right Hand Controller;-208.547;-2097.19;1
+Back Tracker;-142.416;-1445.24;1
+Left Foot Tracker;-65.0832;-660.79;1
+Right Foot Tracker;-456.664;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_29;
+Head Mounted Display;-277.294;-2947.24;1
+Left Hand Controller;-312.018;-2494.16;1
+Right Hand Controller;-245.118;-2097.19;1
+Back Tracker;-198.244;-1445.24;1
+Left Foot Tracker;-51.6157;-660.79;1
+Right Foot Tracker;-489.49;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_30;
+Head Mounted Display;-295.341;-2947.24;1
+Left Hand Controller;-248.828;-2494.16;1
+Right Hand Controller;-206.354;-2097.19;1
+Back Tracker;-145.027;-1445.24;1
+Left Foot Tracker;-69.2783;-660.79;1
+Right Foot Tracker;-364.543;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_31;
+Head Mounted Display;-294.855;-2947.24;1
+Left Hand Controller;-250.739;-2494.16;1
+Right Hand Controller;-210.632;-2097.19;1
+Back Tracker;-148.388;-1445.24;1
+Left Foot Tracker;-65.0454;-660.79;1
+Right Foot Tracker;-330.585;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_32;
+Head Mounted Display;-300.131;-2947.24;1
+Left Hand Controller;-256.221;-2494.16;1
+Right Hand Controller;-213.852;-2097.19;1
+Back Tracker;-156.834;-1445.24;1
+Left Foot Tracker;-62.1018;-660.79;1
+Right Foot Tracker;-453.51;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_33;
+Head Mounted Display;-302.25;-2947.24;1
+Left Hand Controller;-280.298;-2494.16;1
+Right Hand Controller;-212.702;-2097.19;1
+Back Tracker;-159.98;-1445.24;1
+Left Foot Tracker;-63.476;-660.79;1
+Right Foot Tracker;-475.071;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_34;
+Head Mounted Display;-302.736;-2947.24;1
+Left Hand Controller;-259.993;-2494.16;1
+Right Hand Controller;-212.181;-2097.19;1
+Back Tracker;-157.244;-1445.24;1
+Left Foot Tracker;-60.7148;-660.79;1
+Right Foot Tracker;-442.623;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_35;
+Head Mounted Display;-304.713;-2947.24;1
+Left Hand Controller;-268.32;-2494.16;1
+Right Hand Controller;-220.652;-2097.19;1
+Back Tracker;-155.477;-1445.24;1
+Left Foot Tracker;-65.0616;-660.79;1
+Right Foot Tracker;-368.491;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_36;
+Head Mounted Display;-292.884;-2947.24;1
+Left Hand Controller;-259.723;-2494.16;1
+Right Hand Controller;-209.917;-2097.19;1
+Back Tracker;-160.818;-1445.24;1
+Left Foot Tracker;-70.036;-660.79;1
+Right Foot Tracker;-349.607;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_37;
+Head Mounted Display;-305.297;-2947.24;1
+Left Hand Controller;-243.319;-2494.16;1
+Right Hand Controller;-209.009;-2097.19;1
+Back Tracker;-170.33;-1445.24;1
+Left Foot Tracker;-63.6379;-660.79;1
+Right Foot Tracker;-418.948;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_38;
+Head Mounted Display;-300.909;-2947.24;1
+Left Hand Controller;-252.487;-2494.16;1
+Right Hand Controller;-209.725;-2097.19;1
+Back Tracker;-150.188;-1445.24;1
+Left Foot Tracker;-62.4577;-660.79;1
+Right Foot Tracker;-462.166;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_39;
+Head Mounted Display;-314.512;-2947.24;1
+Left Hand Controller;-248.998;-2494.16;1
+Right Hand Controller;-201.731;-2097.19;1
+Back Tracker;-142.134;-1445.24;1
+Left Foot Tracker;-65.4733;-660.79;1
+Right Foot Tracker;-363.139;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_40;
+Head Mounted Display;-306.486;-2947.24;1
+Left Hand Controller;-266.551;-2494.16;1
+Right Hand Controller;-213.147;-2097.19;1
+Back Tracker;-159.099;-1445.24;1
+Left Foot Tracker;-62.1307;-660.79;1
+Right Foot Tracker;-447.532;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_41;
+Head Mounted Display;-298.189;-2947.24;1
+Left Hand Controller;-261.412;-2494.16;1
+Right Hand Controller;-208.674;-2097.19;1
+Back Tracker;-148.478;-1445.24;1
+Left Foot Tracker;-64.035;-660.79;1
+Right Foot Tracker;-402.542;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_42;
+Head Mounted Display;-291.145;-2947.24;1
+Left Hand Controller;-254.766;-2494.16;1
+Right Hand Controller;-211.274;-2097.19;1
+Back Tracker;-146.35;-1445.24;1
+Left Foot Tracker;-67.0092;-660.79;1
+Right Foot Tracker;-386.704;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_43;
+Head Mounted Display;-305.85;-2947.24;1
+Left Hand Controller;-248.168;-2494.16;1
+Right Hand Controller;-211.047;-2097.19;1
+Back Tracker;-140.544;-1445.24;1
+Left Foot Tracker;-63.9959;-660.79;1
+Right Foot Tracker;-306.943;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_44;
+Head Mounted Display;-300.86;-2947.24;1
+Left Hand Controller;-249.184;-2494.16;1
+Right Hand Controller;-212.967;-2097.19;1
+Back Tracker;-141.31;-1445.24;1
+Left Foot Tracker;-65.9097;-660.79;1
+Right Foot Tracker;-342.423;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_45;
+Head Mounted Display;-314.161;-2947.24;1
+Left Hand Controller;-248.826;-2494.16;1
+Right Hand Controller;-206.257;-2097.19;1
+Back Tracker;-131.161;-1445.24;1
+Left Foot Tracker;-64.6684;-660.79;1
+Right Foot Tracker;-411.856;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_46;
+Head Mounted Display;-301.619;-2947.24;1
+Left Hand Controller;-262.11;-2494.16;1
+Right Hand Controller;-209.632;-2097.19;1
+Back Tracker;-143.41;-1445.24;1
+Left Foot Tracker;-64.1389;-660.79;1
+Right Foot Tracker;-369.144;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_47;
+Head Mounted Display;-299.069;-2947.24;1
+Left Hand Controller;-252.934;-2494.16;1
+Right Hand Controller;-205.782;-2097.19;1
+Back Tracker;-173.526;-1445.24;1
+Left Foot Tracker;-76.6182;-660.79;1
+Right Foot Tracker;-348.485;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_48;
+Head Mounted Display;-297.257;-2947.24;1
+Left Hand Controller;-244.94;-2494.16;1
+Right Hand Controller;-213.599;-2097.19;1
+Back Tracker;-132.748;-1445.24;1
+Left Foot Tracker;-67.2827;-660.79;1
+Right Foot Tracker;-351.219;-3204.07;1
+The result is 1.
+
+Validation test of file:Yoga_Krieger_49;
+Head Mounted Display;-299.262;-2947.24;1
+Left Hand Controller;-261.725;-2494.16;1
+Right Hand Controller;-218.534;-2097.19;1
+Back Tracker;-158.228;-1445.24;1
+Left Foot Tracker;-63.3158;-660.79;1
+Right Foot Tracker;-391.168;-3204.07;1
+The result is 1.
+The recognition probability is 1.

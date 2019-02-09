@@ -396,7 +396,7 @@ void HMM::trainHMM(vector<vector<int>> &sequence, int maxIter, double delta) {
 	std::cout << iter;
 
 	// Save log probability threshold
-	probabilityThreshold = probability * 2;
+	probabilityThreshold = 2 * probability;
 
 }
 

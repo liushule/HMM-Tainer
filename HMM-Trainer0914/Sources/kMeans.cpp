@@ -67,7 +67,7 @@ vector<KMeans> calculateClusters(int startFile, int fileAmount, int emissions, i
 ********************************************************************************/
 vector<vector<vector<int>>> sortDataToClusters(string fileName, int fileAmount, vector<KMeans> kmeans) {
 	vector<vector<vector<int>>> returnVector(6);
-	std::cout << "Normalising data set to same total movement duration. \n";
+//	std::cout << "Normalising data set to same total movement duration. \n";
 	vector<vector<Point>> currentDataSet;
 	for (int currentFile = 0; currentFile < fileAmount; currentFile++) {
 		// check whether there is more than one file to be checked, and creeate seperate files if it is the case
@@ -123,52 +123,51 @@ vector<Point> normaliseMeasurements(vector<Point> inputData, int dataVolume) {
 * return value: vector of (trackers) of vector of <Point>
 ********************************************************************************/
 vector<vector<Point>> readData(string fileName, int fileAmount) {
-	fstream f;
-	vector<vector<Point>> returnVector(6);
-	int size = 0;
-	double x, y, z;
-
-	for (int kk = 0; kk < 0 + fileAmount; kk++) {
-
-		string fullPath;
-		// if the amount of files is > 1 create a different file for each file
-		if (fileAmount != 1) fullPath = (trainingFilePathKMeans + fileName + std::to_string(kk) + ".txt");
-		// else only create one path
-		else fullPath = (trainingFilePathKMeans + fileName + ".txt");
-
-		if (ifstream(fullPath)) {
-			f.open(fullPath);
-		}
-		else {
-			cout << "The current data set file " << fullPath << " does not exist!\n\n\n";
-			throw std::invalid_argument("File does not exist");
-		}
-
-		int currentSize;
-		int previousSize = size;
-		string skip, id_tracker;
-
-		f >> skip >> currentSize;
-		size += currentSize;
-
-		for (int ii = previousSize; ii < size; ii++)
-		{
-			f >> id_tracker >> skip >> x >> y >> z;
-			vector<double> values = { x, y, z };
-			Point point = Point(ii, values);
-
-			// differentiate the parsed points and add them to the correct vectors
-			if (id_tracker.compare("HMD") == 0)      returnVector.at(0).push_back(point);
-			else if (id_tracker.compare("lhC") == 0) returnVector.at(1).push_back(point);
-			else if (id_tracker.compare("rhC") == 0) returnVector.at(2).push_back(point);
-			else if (id_tracker.compare("bac") == 0) returnVector.at(3).push_back(point);
-			else if (id_tracker.compare("lfT") == 0) returnVector.at(4).push_back(point);
-			else if (id_tracker.compare("rfT") == 0) returnVector.at(5).push_back(point);
-			else  cout << "Error! Unknown tracker data detected.";
-		}
-		f.close();
-	}
-	return returnVector;
+    fstream f;
+    vector<vector<Point>> returnVector(6);
+    
+    string tag, time;
+    double posX, posY, posZ;
+    double rotX, rotY, rotZ, rotW;
+    
+    for (int kk = 0; kk < 0 + fileAmount; kk++) {
+        
+        string fullPath;
+        // if the amount of files is > 1 create a different file for each file
+        if (fileAmount != 1) fullPath = (trainingFilePathKMeans + fileName + to_string(kk) + ".csv");
+        // else only create one path
+        else fullPath = (trainingFilePathKMeans + fileName + ".csv");
+        
+        if (ifstream(fullPath)) {
+            f.open(fullPath);
+        } else {
+            cout << "The current data set file " << fullPath << " does not exist!\n\n\n";
+            throw invalid_argument("File does not exist");
+        }
+        
+        f >> tag >> time >> tag >> tag >> tag >> tag >> tag >> tag >> tag; // Skip header
+    
+        int ii = 0;
+        for (;;) {
+            f >> tag >> time >> posX >> posY >> posZ >> rotX >> rotY >> rotZ >> rotW;
+            vector<double> values = { posX, posY, posZ};
+            Point point = Point(ii, values);
+            // differentiate the parsed points and add them to the correct vectors
+            if (tag.compare("head") == 0)      returnVector.at(0).push_back(point);
+            else if (tag.compare("lHand") == 0) returnVector.at(1).push_back(point);
+            else if (tag.compare("rHand") == 0) returnVector.at(2).push_back(point);
+            else if (tag.compare("hip") == 0) returnVector.at(3).push_back(point);
+            else if (tag.compare("lFoot") == 0) returnVector.at(4).push_back(point);
+            else if (tag.compare("rFoot") == 0) returnVector.at(5).push_back(point);
+            else cout << "Error! Unknown tracker data detected.";
+            ++ii;
+            if (f.fail() || f.eof())
+                break;
+        }
+        f.close();
+        
+    }
+    return returnVector;
 }
 
 
