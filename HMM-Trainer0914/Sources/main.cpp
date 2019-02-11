@@ -30,13 +30,13 @@ vector<double> calculateProbability(HMM models[6]);
 /// ***** ***** ***** Settings to be changed by user ***** ***** ***** ///
 /// ***** Choose operational mode ***** ///
 // Create new HMM based on at least one data set specified below
-bool createHMM = false;
+bool createHMM = true;
 // Optimise a single HMM by indefinitely calculating new HMMs and replacing the old ones if those are better
 bool optimiseInfiniteHMM = false;
 // Optimise movement recognition manually by outputting table of probabilities (currently only debug functionality)
 bool optimiseMovementRecognition = false;
 // Calculating the probability for a data set based on an already existing HMM
-bool calculateSingleProbability = true;
+bool calculateSingleProbability = false;
 // Show debug messages on console
 bool debug = false;
 
@@ -54,9 +54,9 @@ string writeFileName = "Yoga_Krieger";
 // Number of hidden states used for calculating the HMM (standard is 6)
 int numStates = 6;
 // Number of clusters used for the data set taken as input for the HMM (standard is 8)
-int numEmissions = 10;
+int numEmissions = 8;
 // Number of times an HMM is created per tracker before using the one with the best threshold
-int hmmTries = 1000;
+int hmmTries = 100;
 // Left to right depth of HMM; 0 leaves the start points to be random
 int lrDepth = 2;
 
@@ -178,7 +178,7 @@ int main() {
         
         vector<vector<Point>> currentDataSet;
         file.open(writeFilePath + writeFileName + "_Analysis.txt", ios::out /*| ios::trunc*/);
-        int thresholdIndex [5] = {1,2,3,4,5};
+        int thresholdIndex [3] = {1,2,3};
         for (int &index : thresholdIndex){
             count=0;
             for (int currentFile = 0; currentFile < validationFileNumber; currentFile++) {

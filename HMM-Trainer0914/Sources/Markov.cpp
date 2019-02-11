@@ -58,7 +58,6 @@ HMM::HMM(int N, int M, int LRdepth): numStates(N), sigmaSize(M), pi(numStates, 0
 	// Initialize A
 	if (LRdepth == 0) {		// left-to-right depth of 0: random initialization
 		for (int i = 0; i < N; i++) {
-
 			double sum = 0;
 			for (int j = 0; j < N; j++) {
 				int randomInt = rand() % 1000;
@@ -195,11 +194,12 @@ vector<double> HMM::updateAlphaNormalized(vector<int>& sequence, double** alpha)
 		c.at(0) += alpha[i][0];
 	}
 	c.at(0) = 1 / c.at(0);
+    
 
 	for (int i = 0; i < N; i++) {
 		alpha[i][0] *= c.at(0);
 	}
-
+    
 	// 2. Induction
 	for (int t = 1; t < T; t++) {
 
@@ -270,7 +270,6 @@ double HMM::calculateProbability(vector<int>& sequence) {
 
 	const int N = numStates;
 	const int T = sequence.size();
-
 	double** alpha = matrix<double>(0, N, T); // forward probability matrix
 
 	vector<double> c = updateAlphaNormalized(sequence, alpha); // run the forward algorithm
@@ -386,14 +385,13 @@ void HMM::trainHMM(vector<vector<int>> &sequence, int maxIter, double delta) {
 		// Calculate log probability
 		prevProbability = probability;
 		probability = 0;
-        if (sequence.size()>0){
+//        if (sequence.size()>0){
 		for (int t = 0; t < sequence.at(0).size(); t++) {
 			probability -= std::log(c.at(0).at(t));
-		}
+//        }
         }
+  
 	}
-
-	std::cout << iter;
 
 	// Save log probability threshold
 	probabilityThreshold = 2 * probability;

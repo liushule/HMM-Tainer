@@ -146,7 +146,6 @@ vector<vector<Point>> readData(string fileName, int fileAmount) {
         }
         
         f >> tag >> time >> tag >> tag >> tag >> tag >> tag >> tag >> tag; // Skip header
-    
         int ii = 0;
         for (;;) {
             f >> tag >> time >> posX >> posY >> posZ >> rotX >> rotY >> rotZ >> rotW;
@@ -165,7 +164,6 @@ vector<vector<Point>> readData(string fileName, int fileAmount) {
                 break;
         }
         f.close();
-        
     }
     return returnVector;
 }
